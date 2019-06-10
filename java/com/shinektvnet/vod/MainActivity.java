@@ -21,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
         ResourcesManger.getInstance();
         ResourcesManger.getInstance().makeExtraResources("com.shinektv.vod.resource", "/sdcard/resource-debug.apk");
         setContentView(R.layout.functionpanel);
+
+
+
+
     }
 
     /**
