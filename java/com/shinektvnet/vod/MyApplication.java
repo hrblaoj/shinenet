@@ -32,6 +32,10 @@ public class MyApplication extends Application {
         AutoSizeConfig.getInstance().getUnitsManager()
                 .setSupportDP(true)
 
+
+
+
+
                 //当使用者想将旧项目从主单位过渡到副单位, 或从副单位过渡到主单位时
                 //因为在使用主单位时, 建议在 AndroidManifest 中填写设计图的 dp 尺寸, 比如 360 * 640
                 //而副单位有一个特性是可以直接在 AndroidManifest 中填写设计图的 px 尺寸, 比如 1080 * 1920
