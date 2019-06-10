@@ -1,0 +1,457 @@
+
+<resources>
+    <string name="app_name">shinektv</string>
+    <string name="skin_name">defaultskin</string>
+    <string name="app_start_name">KTV_VOD  1.0</string>
+
+    <string name="show_limit">9</string>
+    <string name="show_singerLimit">10</string>
+    <string name="support_listview_scroll_y_drection">0</string><!--是否支持上下滑动-->
+
+    <!--注：仅供视图参考，多语言在APP下配置-->
+    <string name="gemingdiange_title">歌名点歌</string>
+    <string name="gemingdiange_language1">国语</string>
+    <string name="gemingdiange_language2">粤语</string>
+    <string name="gemingdiange_language3">闽南</string>
+    <string name="gemingdiange_language4">英语</string>
+    <string name="gemingdiange_language5">韩语</string>
+    <string name="gemingdiange_language6">日语</string>
+
+    <string name="gemingdiange_language39">其他</string>
+    <string name="gemingdiange_language40">全部</string>
+
+    <string name="gemingdiange_wordcnt0">一字</string>
+    <string name="gemingdiange_wordcnt1">二字</string>
+    <string name="gemingdiange_wordcnt2">三字</string>
+    <string name="gemingdiange_wordcnt3">四字</string>
+    <string name="gemingdiange_wordcnt4">五字</string>
+    <string name="gemingdiange_wordcnt5">六字</string>
+    <string name="gemingdiange_wordcnt6">七字</string>
+    <string name="gemingdiange_wordcnt7">多字</string>
+    <string name="gemingdiange_wordcnt8">全部</string>
+
+    <!-- 歌名点歌 -->
+    <string name="gemingdiange_songversion1">MTV</string>
+    <string name="gemingdiange_songversion2">风景</string>
+    <string name="gemingdiange_songversion3">演唱会</string>
+    <string name="gemingdiange_songversion4">人物</string>
+    <string name="gemingdiange_songversion5">故事情节</string>
+    <string name="gemingdiange_songversion6">影视剧</string>
+    <string name="gemingdiange_songversion7">欣赏版</string>
+    <string name="gemingdiange_songversion8">影视题材</string>
+    <string name="gemingdiange_songversion9">其他</string>
+    <string name="gemingdiange_songversion10">迪曲</string>
+    <string name="gemingdiange_songversion11">舞曲</string>
+
+
+    <!--键盘功能文字-->
+    <string name="jianpan_text_song_empty_hint">请输入歌曲名称首字母</string>
+	<string name="jianpan_text_singer_empty_hint">请输入歌星名称首字母</string>
+
+    <!-- 歌星点歌相关文字 -->
+    <string name="gexingdiange_title">歌星点歌</string>
+    <string name="gexingdiange_page_type_filter_radiobutton1">华人男星</string>
+    <string name="gexingdiange_page_type_filter_radiobutton2">华人女星</string>
+    <string name="gexingdiange_page_type_filter_radiobutton3">欧美歌星</string>
+    <string name="gexingdiange_page_type_filter_radiobutton4">韩日歌星</string>
+    <string name="gexingdiange_page_type_filter_radiobutton5">华人组合</string>
+    <string name="gexingdiange_page_type_filter_radiobutton6">外国组合</string>
+    <string name="gexingdiange_page_type_filter_radiobutton7">热门歌星</string>
+    <string name="gexingdiange_page_type_filter_radiobutton8">全部歌星</string>
+
+    <!-- 英语（美国） -->
+    <string name="spell_us_a">A</string>
+    <string name="spell_us_b">B</string>
+    <string name="spell_us_c">C</string>
+    <string name="spell_us_d">D</string>
+    <string name="spell_us_e">E</string>
+    <string name="spell_us_f">F</string>
+    <string name="spell_us_g">G</string>
+    <string name="spell_us_h">H</string>
+    <string name="spell_us_i">I</string>
+    <string name="spell_us_j">J</string>
+    <string name="spell_us_k">K</string>
+    <string name="spell_us_l">L</string>
+    <string name="spell_us_m">M</string>
+    <string name="spell_us_n">N</string>
+    <string name="spell_us_o">O</string>
+    <string name="spell_us_p">P</string>
+    <string name="spell_us_q">Q</string>
+    <string name="spell_us_r">R</string>
+    <string name="spell_us_s">S</string>
+    <string name="spell_us_t">T</string>
+    <string name="spell_us_u">U</string>
+    <string name="spell_us_v">V</string>
+    <string name="spell_us_w">W</string>
+    <string name="spell_us_x">X</string>
+    <string name="spell_us_y">Y</string>
+    <string name="spell_us_z">Z</string>
+
+    <string name="font_size_27">27</string>
+    <string name="font_size_19">19</string>
+    <string name="mainpage_home_menu0">点歌</string>
+    <string name="mainpage_yingshi">应用</string>
+    <string name="mainpage_hudong">互动</string>
+    <string name="mainpage_fuzhu">辅助</string>
+    <string name="mainpage_topsong">热门榜单</string>
+    <string name="mainpage_songname">歌名点歌</string>
+    <string name="mainpage_singersong">歌星点歌</string>
+    <string name="mainpage_themesong">主题点歌</string>
+    <string name="mainpage_newsong">新歌推荐</string>
+    <string name="mainpage_funsong">娱乐节目</string>
+    <string name="mainpage_collectionsong">收藏歌曲</string>
+    <string name="mainpage_movie">热门影视</string>
+    <string name="mainpage_tv">电视节目</string>
+    <string name="mainpage_zhibo">网络直播</string>
+    <string name="mainpage_ad"></string>
+    <string name="mainpage_showmv">秀秀MV</string>
+    <string name="mainpage_baping">霸屏</string>
+    <string name="mainpage_ksong">录音分享</string>
+    <string name="mainpage_recognizesong">听音识曲</string>
+    <string name="mainpage_bless">弹幕</string>
+    <string name="mainpage_udisksong">U盘播歌</string>
+    <string name="mainpage_raiders"></string>
+    <string name="mainpage_style">风格切换</string>
+    <string name="mainpage_fireillustration">消防图解</string>
+    <string name="mainpage_sys">系统设置</string>
+    <string name="mainpage_freesong">空闲歌曲</string>
+    <string name="mainpage_help">使用帮助</string>
+    <string name="mainpage_machineinfo">关于本机</string>
+
+    <string name="functionpannel_language_text">语言</string>
+    <string name="functionpannel_skin_text">换肤</string>
+    <string name="functionpannel_cutscreen_text">屏切</string>
+    <string name="functionpannel_download_text">下载</string>
+    <string name="functionpannel_select_text">已选</string>
+    <string name="functionpannel_daohang_text">导航</string>
+    <string name="functionpannel_mainpage_text">首页</string>
+    <string name="functionpannel_qifen_text">气氛</string>
+    <string name="functionpannel_xiaoguo_text">效果</string>
+    <string name="functionpannel_return_text">返回</string>
+    <string name="functionpannel_phone_text">手机</string>
+    <string name="functionpannel_record_text">录音</string>
+    <string name="functionpannel_playrepeat_text">重唱</string>
+    <string name="functionpannel_playingsong_text">正播放：</string>
+    <string name="functionpannel_playnextsong_text">下一首：</string>
+    <string name="functionpannel_freesong">空闲歌曲</string>
+    <string name="functionpannel_mutex_text">静音</string>
+    <string name="functionpannel_cancelmutex_text">取消</string>
+    <string name="functionpannel_stop_text">暂停</string>
+    <string name="functionpannel_play_text">播放</string>
+    <string name="functionpannel_accompany_text">伴唱</string>
+    <string name="functionpannel_original_text">原唱</string>
+    <string name="functionpannel_playnext_text">切歌</string>
+	
+    <!--主题点歌-->
+    <string name="zhutidiange_yingshijinqu">影视金曲</string>
+    <string name="zhutidiange_jingdianxiqu">经典戏曲</string>
+    <string name="zhutidiange_difangminge">地方民歌</string>
+    <string name="zhutidiange_qinggeduchang">情歌对唱</string>
+    <string name="zhutidiange_nongqingwuqu">浓情舞曲</string>
+    <string name="zhutidiange_junlvgequ">军旅歌曲</string>
+    <string name="zhutidiange_ertonggequ">儿童歌曲</string>
+    <string name="zhutidiange_zhufugequ">祝福歌曲</string>
+    <string name="zhutidiange_jinbaodiqu">劲爆迪曲</string>
+
+    <string name="song_type_opera0">京剧</string>
+    <string name="song_type_opera1">秦腔</string>
+    <string name="song_type_opera2">黄梅戏</string>
+    <string name="song_type_opera3">梆子</string>
+    <string name="song_type_opera4">豫剧</string>
+    <string name="song_type_opera5">粤剧</string>
+    <string name="song_type_opera6">潮剧</string>
+    <string name="song_type_opera7">越剧</string>
+
+    <string name="song_word_count0">一字</string>
+    <string name="song_word_count1">二字</string>
+    <string name="song_word_count2">三字</string>
+    <string name="song_word_count3">四字</string>
+    <string name="song_word_count4">五字</string>
+    <string name="song_word_count5">六字</string>
+    <string name="song_word_count6">七字</string>
+    <string name="song_word_count7">多字</string>
+    <string name="song_word_count8">全部</string>
+
+    <string name="topsong_title">点歌排行榜</string>
+    <!--已选-->
+    <string name="selectsung_select">已选歌曲</string>
+    <string name="selectsung_sung">已唱歌曲</string>
+    <string name="selectsung_clean">清空已选</string>
+    <string name="selectsung_upset">打乱已选</string>
+    <string name="selectsung_playing">正在播放</string>
+    <string name="selectsung_selectno">预约</string>
+
+    <!--娱乐节目-->
+    <string name="entertainment_chunwan">央视春节联欢晚会</string>
+    <string name="entertainment_mengxiangdeshengyin">梦想的声音</string>
+    <string name="entertainment_geshoulaile">歌手来了</string>
+    <string name="entertainment_weiluyinyuhui">围炉音乐会</string>
+    <string name="entertainment_zhongguohaogequ">中国好歌曲</string>
+    <string name="entertainment_woshigeshou">我是歌手</string>
+    <string name="entertainment_mengmiangewang">蒙面歌王</string>
+    <string name="entertainment_zhongguoxingesheng">中国新歌声</string>
+    <string name="entertainment_tianlaizhizhan">天籁之战</string>
+    <string name="entertainment_zhongguozhixing">中国之星</string>
+    <string name="entertainment_zhongguohaoshenyin">中国好声音</string>
+    <string name="entertainment_zhongguomengzhisheng">中国梦之声</string>
+    <string name="entertainment_zhongguoxinshengdai">中国新声代</string>
+    <string name="entertainment_chaojigedan">超级歌单</string>
+    <string name="entertainment_kuajiegewang">跨界歌王</string>
+    <string name="entertainment_gaishiyingxiong">盖世英雄</string>
+    <string name="entertainment_woxianghenichang">我想和你唱</string>
+    <string name="entertainment_default"></string>
+    <!--录音分享-->
+    <string name="record_title">录音分享</string>
+    <!--弹窗-->
+    <string name="dialog_title">温馨提示</string>
+    <string name="dialog_determine">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_no_result">未找到符合条件的歌曲或歌星，请重新查询吧( ^_^ )</string>
+    <string name="dialog_dbcleantop">清空数据库排行中，暂不可进行页面操作，请勿关闭主机电源</string>
+    <string name="dialog_repairdb">没有可以还原的数据库</string>
+    <string name="dialog_repairdbfail">打开还原数据库失败</string>
+    <string name="dialog_repairdbing">正在还原数据库，暂不可进行页面操作，请勿关闭主机电源</string>
+    <!--歌星反查-->
+    <string name="dialog_already_song_from_singer">当前已是该歌星歌曲界面</string>
+    <!--换肤-->
+    <string name="skin_title_name">风格切换</string>
+    <!--语言切换-->
+    <string name="lang_title_name">语言切换</string>
+    <string name="lang_china">中文简体</string>
+    <string name="lang_hongkong">中文繁體</string>
+    <string name="lang_english">English</string>
+    <string name="lang_korea">한국어</string>
+    <string name="lang_japan">日本の</string>
+    <string name="lang_taiguo">ประเทศไทย</string>
+
+    <!--云下载-->
+    <string name="gemingdiange_download_downloading">正在下载</string>
+    <string name="gemingdiange_download_wating">等待下载</string>
+
+    <!--系统设置-->
+    <string name="sys_login">系统登录</string>
+    <string name="sys_basic_hdmimode">视频输出模式</string>
+    <string name="sys_net_wifisetting">WIFI设置</string>
+    <string name="sys_textView_basic">基础设置</string>
+    <string name="sys_textView_net">网络设置</string>
+    <string name="sys_textView_more">更多设置</string>
+    <string name="sys_basic_resolution_1080P">HD1080P</string>
+    <string name="sys_basic_resolution_720P">HD720P</string>
+    <string name="sys_off">off</string>
+    <string name="sys_on">on</string>
+    <string name="sys_basic_hdmiaudio_text">HDMI音频</string>
+    <string name="sys_basic_comeffect_text">中控音效</string>
+    <string name="sys_basic_volumefollow_text">音量跟随</string>
+    <string name="sys_basic_volumedefault_text">歌曲初始音量</string>
+    <string name="sys_basic_freevolumedefault_text">空闲初始音量</string>
+    <string name="sys_basic_maxvolumedefault_text">音乐音量最大值</string>
+    <string name="syssetting_basic_resetpasswd_button">密码修改</string>
+    <string name="syssetting_basic_resetpasswd_shutdown_button">关机密码</string>
+    <string name="syssetting_basic_cleantop_button">清空排行</string>
+    <string name="syssetting_basic_firepreview_button">消防预览</string>
+    <string name="syssetting_basic_restore_button">一键还原</string>
+    <string name="syssetting_basic_screenregulatio_button">屏幕校准</string>
+    <string name="sys_basic_showcloud_text">显示云歌曲</string>
+    <string name="sys_basic_topmode_text">排行榜方式</string>
+    <string name="sys_basic_allowroomcontrol_text">后台控制开关房</string>
+    <string name="sys_basic_initialcalibration_text">初始校准</string>
+    <string name="sys_basic_updatedb_finish_hint_text">数据库更新结果提醒</string>
+
+    <string name="sys_net_wifisetting_wifiname">WIFI名称</string>
+    <string name="sys_net_wifisetting_wifipasswd">WIFI密码</string>
+    <string name="sys_net_wifisetting_curwifipasswd">密码</string>
+
+    <string name="sys_net_wifisetting_status_disconnect">未连接</string>
+    <string name="sys_net_wifisetting_status_connected">已连接</string>
+    <string name="sys_net_wifisetting_status_connecting">正在连接</string>
+
+
+    <string name="symbols_0">&#033;</string>
+    <string name="symbols_1">&#064;</string>
+    <string name="symbols_2">&#035;</string>
+    <string name="symbols_3">&#036;</string>
+    <string name="symbols_4">&#037;</string>
+    <string name="symbols_5">&#094;</string>
+    <string name="symbols_6">&#038;</string>
+    <string name="symbols_7">&#042;</string>
+    <string name="symbols_8">&#040;</string>
+    <string name="symbols_9">&#041;</string>
+    <string name="symbols_10">&#126;</string>
+    <string name="symbols_11">&#096;</string>
+    <string name="symbols_12">&#095;</string>
+    <string name="symbols_13">&#175;</string>
+    <string name="symbols_14">&#061;</string>
+    <string name="symbols_15">&#043;</string>
+    <string name="symbols_16">&#123;</string>
+    <string name="symbols_17">&#125;</string>
+    <string name="symbols_18">&#091;</string>
+    <string name="symbols_19">&#093;</string>
+    <string name="symbols_20">&#058;</string>
+    <string name="symbols_21">&#059;</string>
+    <string name="symbols_22">\"</string>
+    <string name="symbols_23">\'</string>
+    <string name="symbols_24">&#124;</string>
+    <string name="symbols_25">\\</string>
+    <string name="symbols_26">/</string>
+    <string name="symbols_27">&#060;</string>
+    <string name="symbols_28">&#062;</string>
+    <string name="symbols_29">&#044;</string>
+    <string name="symbols_30">&#046;</string>
+    <string name="symbols_31">&#063;</string>
+    <string name="syssetting_keboard_letter">ABC</string>
+    <string name="syssetting_keboard_uppercase">大写</string>
+    <string name="syssetting_keboard_lowercase">小写</string>
+    <string name="syssetting_keboard_hand">手写</string>
+    <string name="syssetting_keboard_del">回删</string>
+    <string name="syssetting_keboard_symbools">符号</string>
+
+    <string name="letter_0">0</string>
+    <string name="letter_1">1</string>
+    <string name="letter_2">2</string>
+    <string name="letter_3">3</string>
+    <string name="letter_4">4</string>
+    <string name="letter_5">5</string>
+    <string name="letter_6">6</string>
+    <string name="letter_7">7</string>
+    <string name="letter_8">8</string>
+    <string name="letter_9">9</string>
+    <string name="sys_net_manualorauto_ip_text">IP 地 址</string>
+    <string name="sys_net_ethesetting">有线设置</string>
+    <string name="sys_net_ethesetting_manual">手动设置</string>
+    <string name="sys_net_ethesetting_auto">自动设置</string>
+    <string name="sys_net_manualorauto_mask_text">子网掩码</string>
+    <string name="sys_net_manualorauto_gateway_text">默认网关</string>
+    <string name="sys_net_manualorauto_dns1_text">默认DNS</string>
+    <string name="sys_net_manualorauto_dns2_text">备用DNS</string>
+    <string name="syssetting_net_ethsavebtn">保存</string>
+    <string name="syssetting_net_wifimode">WIFI</string>
+
+    <string name="sys_more_mactext">MAC地址：</string>
+    <string name="sys_more_wifiiptext">无线IP：</string>
+    <string name="sys_more_etheiptext">有线IP：</string>
+    <string name="syssetting_more_udiskupdate">U盘升级</string>
+    <string name="syssetting_more_udiskaddsong">U盘加歌</string>
+    <string name="syssetting_more_sortsong">歌曲排序</string>
+    <string name="syssetting_more_updatedb">更新歌库</string>
+    <string name="syssetting_more_updatescore">更新评分</string>
+    <string name="syssetting_more_updateapp">在线升级</string>
+    <string name="sys_more_diskcapacity">硬盘容量</string>
+    <string name="sys_more_diskssurpluscapacitytext">剩余容量：</string>
+    <string name="sys_more_registerinfo">注册信息：</string>
+    <string name="sys_more_expirytime">到期时间：</string>
+    <string name="sys_more_songcapacitytext">还可存取歌曲数：</string>
+    <string name="sys_more_cloudinfo">云服务信息：</string>
+    <string name="sys_more_alreadyre">已注册</string>
+    <string name="sys_more_notre">未注册</string>
+    <string name="sys_more_lostday">到期时间：</string>
+
+
+
+
+    <string name="magicwindow_title_name">魔窗</string>
+    <string name="functionpanel_shutdown">关机</string>
+
+
+    <string name="taiyu_letter1">-</string>
+    <string name="taiyu_letter2">ๆ</string>
+    <string name="taiyu_letter3">/</string>
+    <string name="taiyu_letter4">_</string>
+    <string name="taiyu_letter5">ภ</string>
+    <string name="taiyu_letter6">ถ</string>
+    <string name="taiyu_letter7">ุ</string>
+    <string name="taiyu_letter8">ึ</string>
+    <string name="taiyu_letter9">ค</string>
+    <string name="taiyu_letter10">ต</string>
+    <string name="taiyu_letter11">จ</string>
+    <string name="taiyu_letter12">ข</string>
+    <string name="taiyu_letter13">ช</string>
+    <string name="taiyu_letter14">ๆ</string>
+    <string name="taiyu_letter15">ไ</string>
+    <string name="taiyu_letter16">ำ</string>
+    <string name="taiyu_letter17">พ</string>
+    <string name="taiyu_letter18">ะ</string>
+    <string name="taiyu_letter19">ั</string>
+    <string name="taiyu_letter20">ี</string>
+    <string name="taiyu_letter21">ร</string>
+    <string name="taiyu_letter22">น</string>
+    <string name="taiyu_letter23">ย</string>
+    <string name="taiyu_letter24">บ</string>
+    <string name="taiyu_letter25">ล</string>
+    <string name="taiyu_letter26">ฃ</string>
+    <string name="taiyu_letter27">ฟ</string>
+    <string name="taiyu_letter28">ห</string>
+    <string name="taiyu_letter29">ก</string>
+    <string name="taiyu_letter30">ด</string>
+    <string name="taiyu_letter31">เ</string>
+    <string name="taiyu_letter32">้</string>
+    <string name="taiyu_letter33">่</string>
+    <string name="taiyu_letter34">า</string>
+    <string name="taiyu_letter35">ส</string>
+    <string name="taiyu_letter36">ว</string>
+    <string name="taiyu_letter37">ง</string>
+    <string name="taiyu_letter38">ผ</string>
+    <string name="taiyu_letter39">ป</string>
+    <string name="taiyu_letter40">แ</string>
+    <string name="taiyu_letter41">อ</string>
+    <string name="taiyu_letter42">ิ</string>
+    <string name="taiyu_letter43">ื</string>
+    <string name="taiyu_letter44">ท</string>
+    <string name="taiyu_letter45">ม</string>
+    <string name="taiyu_letter46">ใ</string>
+    <string name="taiyu_letter47">ฝ</string>
+
+
+    <string name="taiyu_letter1da">%</string>
+    <string name="taiyu_letter2da">+</string>
+    <string name="taiyu_letter3da">๑</string>
+    <string name="taiyu_letter4da">๒</string>
+    <string name="taiyu_letter5da">๓</string>
+    <string name="taiyu_letter6da">๔</string>
+    <string name="taiyu_letter7da">ู</string>
+    <string name="taiyu_letter8da">฿</string>
+    <string name="taiyu_letter9da">๕</string>
+    <string name="taiyu_letter10da">๖</string>
+    <string name="taiyu_letter11da">๗</string>
+    <string name="taiyu_letter12da">๘</string>
+    <string name="taiyu_letter13da">๙</string>
+    <string name="taiyu_letter14da">๐</string>
+    <string name="taiyu_letter15da">\"</string>
+    <string name="taiyu_letter16da">ฎ</string>
+    <string name="taiyu_letter17da">ฑ</string>
+    <string name="taiyu_letter18da">ธ</string>
+    <string name="taiyu_letter19da">ํ</string>
+    <string name="taiyu_letter20da">๊</string>
+    <string name="taiyu_letter21da">ณ</string>
+    <string name="taiyu_letter22da">ฯ</string>
+    <string name="taiyu_letter23da">ญ</string>
+    <string name="taiyu_letter24da">ฐ</string>
+    <string name="taiyu_letter25da">,</string>
+    <string name="taiyu_letter26da">ฅ</string>
+    <string name="taiyu_letter27da">ฤ</string>
+    <string name="taiyu_letter28da">ฆ</string>
+    <string name="taiyu_letter29da">ฏ</string>
+    <string name="taiyu_letter30da">โ</string>
+    <string name="taiyu_letter31da">ฌ</string>
+    <string name="taiyu_letter32da">็</string>
+    <string name="taiyu_letter33da">๋</string>
+    <string name="taiyu_letter34da">ษ</string>
+    <string name="taiyu_letter35da">ศ</string>
+    <string name="taiyu_letter36da">ซ</string>
+    <string name="taiyu_letter37da">.</string>
+    <string name="taiyu_letter38da">(</string>
+    <string name="taiyu_letter39da">)</string>
+    <string name="taiyu_letter40da">ฉ</string>
+    <string name="taiyu_letter41da">ฮ</string>
+    <string name="taiyu_letter42da">ฺ</string>
+    <string name="taiyu_letter43da">์</string>
+    <string name="taiyu_letter44da">&#063;</string>
+    <string name="taiyu_letter45da">ฒ</string>
+    <string name="taiyu_letter46da">ฬ</string>
+    <string name="taiyu_letter47da">ฦ</string>
+
+    <string name="taiyu_letter48">⇧</string>
+    <string name="taiyu_letter48da">⇪</string>
+    <string name="taiyu_letter49">⟲</string>
+    <string name="taiyu_letter49da">⟲</string>
+    <string name="taiyu_letterenter">↩︎</string>
+</resources>

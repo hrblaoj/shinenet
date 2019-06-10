@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list  xmlns:android="http://schemas.android.com/apk/res/android">  
+    <!--<item android:id="@android:id/background" android:drawable="@drawable/functionpannel_seekbar1" >-->
+
+        <!--<scale android:scaleWidth="100%" />-->
+
+    <!--</item>-->
+
+    <!--<item android:id="@android:id/progress">  -->
+        <!--<clip android:drawable="@drawable/functionpannel_seekbar2" />-->
+        <!--<scale android:scaleWidth="100%" />-->
+    <!--</item>  -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="20dip"/>
+            <gradient android:startColor="#ff393939"
+                android:centerColor="#ff46444C" android:endColor="#ff393939"
+                android:centerY="0.5" android:angle="270"/>
+        </shape>
+        <scale android:scaleWidth="100%" />
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="20dip" />
+                <gradient android:startColor="#ffd6d6d6"
+                    android:centerColor="#ffd6d6d6" android:endColor="#ffd6d6d6"
+                    android:centerY="0.5" android:angle="270" />
+            </shape>
+        </clip>
+    </item>
+    <scale android:scaleWidth="100%" />
+</layer-list>

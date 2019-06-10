@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 按下图片切换 -->
+    <item android:drawable="@drawable/functionpannel_playnext1" android:state_pressed="false"/>
+    <item android:drawable="@drawable/functionpannel_playnext2" android:state_pressed="true"/>
+</selector>

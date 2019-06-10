@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#3F51B5</color>
+	<color name="colorPrimaryDark">#303F9F</color>
+	<color name="colorAccent">#FF4081</color>
+    <color name="tm_white">#FFFFFFFF</color>
+    <color name="tm">#00000000</color>
+    <color name="background">#FF000000</color>
+	<color name="control_back">#AA00003D</color>
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+	<color name="lightBlack">#000000</color>
+	<color name="lightBlack2">#ACACAC</color>
+	<color name="lightGray">#D7D7D7</color>
+	<color name="green">#00FF80</color>
+	<color name="red">#FF0000</color>
+	<color name="orange">#E7C53F</color>
+	<color name="pink">#E3776F</color>
+	<color name="blue">#648FEA</color>
+	<color name="yellow">#F0F000</color>
+	
+	<color name="systeminfo_head_line">#FFFF00</color>
+	<color name="systeminfo_but">#A2A2A2</color>
+	
+	<color name="movie_black">#515148</color>
+	<color name="movie_black_d">#B5B5AC</color>
+	
+	<color name="offWhite">#DDDDDD</color>
+	<color name="darkGray">#333333</color>
+	<color name="brightRed">#FF0000</color>
+	<color name="brightGreen">#00FF00</color>
+	<color name="brightBlue">#0000FF</color>
+	<color name="darkBlue">#880000FF</color>
+	<color name="transparent">#000000ff</color>
+	
+	<color name="tm_lavender">#5A8807AD</color>
+	
+	<color name="dialog_title_bg">#A3BEE4</color>
+	<color name="text_second">#7f7f7f</color>
+
+
+	<color name="gemingdiange_title">#FDC613</color>
+	<color name="gemingdiange_language">#FFFEFB</color>
+	<color name="gemingdiange_language_selected">#02CED8</color>
+	<color name="gemingdiange_txtmtv">#E0CAB5</color>
+	<color name="gemingdiange_singername">#FEE6C0</color>
+	<color name="gemingdiange_songnote">#00F9FF</color>
+	<color name="gemingdiange_title_singer_name">#DFD9C3</color>
+	<color name="jianpan_character">#00D7CC</color>
+	<color name="jianpan_character_press">#FF00A2</color>
+	<color name="jianpan_character_unable">#ACACAC</color>
+	<color name="jianpan_character_disable">#34404B</color>
+	<color name="jianpan_character_noamal">#05E5DD</color>
+	<color name="jianpan_hint">#93AEA9</color>
+
+	<color name="song_list_title">#FDC613</color>
+	<color name="song_list_subtitle">#FEE6C0</color>
+	<color name="song_list_type_opera">#FFFEFB</color>
+	<color name="song_list_type_opera_selected">#02CED8</color>
+
+
+	<color name="screen_control_content">#5DC6D7</color>
+
+	<color name="dialog_title">#FDB306</color>
+	<color name="dialog_content">#D19705</color>
+	<color name="dialog_effect_title">#FDB306</color>
+	<color name="dialog_effect_content">#5DC6D7</color>
+	<color name="dialog_effect_checked">#FF059D</color>
+	<color name="dialog_aura_content">#FDB306</color>
+	<color name="dialog_baping_switch">#059495</color>
+
+	<color name="gexingdiange_item_text_color">#FFFEFB</color>
+
+	<color name="gemingdiange_download_tag">#FD0010</color>
+
+	<color name="navigate_title">#FDB306</color>
+	<color name="navigate_content">#FFFFFF</color>
+
+	<color name="system_login_btn_text">#FFFFFF</color>
+	<color name="system_login_text">#07C7CA</color>
+
+	<color name="sys_setting_title">#FDC613</color>
+	<color name="sys_setting_type">#FFFEFB</color>
+	<color name="sys_setting_type_selected">#FDC613</color>
+	<color name="sys_setting_type_disable">#666666</color>
+	<color name="sys_setting_more_tip">#B50000</color>
+</resources>
