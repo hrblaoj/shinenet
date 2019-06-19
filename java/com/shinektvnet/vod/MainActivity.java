@@ -2,10 +2,10 @@ package com.shinektvnet.vod;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.FrameLayout;
-import android.widget.TextView;
 
+import com.shinektvnet.vod.functionpanel.FunctionpanelFactory;
+import com.shinektvnet.vod.functionpanel.FunctionpanelProduct;
+import com.shinektvnet.vod.functionpanel.MyFunctionpannelF;
 import com.shinektvnet.vod.resources.ResourcesManger;
 
 public class MainActivity extends AppCompatActivity {
@@ -15,14 +15,16 @@ public class MainActivity extends AppCompatActivity {
         System.loadLibrary("native-lib");
     }
 
+    private FunctionpanelProduct functionpanel = null;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ResourcesManger.getInstance();
-        ResourcesManger.getInstance().makeExtraResources("com.shinektv.vod.resource", "/sdcard/resource-debug.apk");
-        setContentView(R.layout.functionpanel);
-
-
+        //ResourcesManger.getInstance().makeExtraResources("com.shinektv.vod.resource", "/sdcard/resource-debug.apk");
+        functionpanel = new MyFunctionpannelF().create();
+        setContentView(functionpanel.getView());
 
 
     }

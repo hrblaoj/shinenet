@@ -28,7 +28,7 @@ public class ResourcesExtra extends ResourcesManger.BaseResources {
 
             @Override
             public String getString(String idname) {
-                return "asdg";
+                return "";
             }
         };
         AssetManager assetManager = null;
