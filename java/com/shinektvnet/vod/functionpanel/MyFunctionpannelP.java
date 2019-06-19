@@ -10,7 +10,7 @@ import com.shinektvnet.vod.R;
  * Created by hrblaoj on 2019/6/19.
  */
 
-public class MyFunctionpannelP extends FunctionpanelProduct{
+public class MyFunctionpannelP extends FunctionpanelProduct {
 
     @Override
     public int getId() {

@@ -21,6 +21,8 @@ public class MyApplication extends Application {
         super.onCreate();
         insTance = this;
         configUnits();
+
+
     }
 
     private void configUnits() {

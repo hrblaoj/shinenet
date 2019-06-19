@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         functionpanel = new MyFunctionpannelF().create();
         setContentView(functionpanel.getView());
 
+        
     }
 
     /**
