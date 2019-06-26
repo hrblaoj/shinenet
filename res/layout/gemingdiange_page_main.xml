@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="1280dp"
+    android:layout_height="720dp"
+    android:id="@+id/gemingdiange_root_layout"
+
+    >
+
+    <!-- page中间内容 -->
+    <RelativeLayout
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="78dp"
+        android:layout_width="794dp"
+        android:layout_height="543dp"
+        android:clickable="true"
+
+        >
+        <ImageView
+            android:id="@+id/gemingdiange_bg"
+            android:background="@drawable/gemingdiange_bg"
+            android:layout_width="794dp"
+            android:layout_height="543dp"
+            />
+        <!--android:layout_width="781dp"-->
+        <RelativeLayout
+            android:id="@+id/page_body"
+            android:tag="page_body"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="54dp"
+            android:layout_width="781dp"
+            android:layout_height="439dp"
+            android:orientation="vertical"
+            android:clickable="true"
+            >
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_title"
+        android:tag="gemingdiange_textView_title"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/gemingdiange_title"
+        android:textColor="@color/gemingdiange_title"
+        android:textSize="24sp"
+        android:clickable="false"
+        />
+
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_language0"
+        android:tag="gemingdiange_textView_language0"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_language1"
+        android:tag="gemingdiange_textView_language1"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_language2"
+        android:tag="gemingdiange_textView_language2"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="316dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_language3"
+        android:tag="gemingdiange_textView_language3"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="394dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_language4"
+        android:tag="gemingdiange_textView_language4"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="473dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_language5"
+        android:tag="gemingdiange_textView_language5"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="554dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_language6"
+        android:tag="gemingdiange_textView_language6"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="634dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_language7"
+        android:tag="gemingdiange_textView_language7"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="712dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_wordcnt0"
+        android:tag="gemingdiange_textView_wordcnt0"
+        android:layout_width="50dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="572dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_wordcnt1"
+        android:tag="gemingdiange_textView_wordcnt1"
+        android:layout_width="50dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="572dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_wordcnt2"
+        android:tag="gemingdiange_textView_wordcnt2"
+        android:layout_width="50dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="572dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_wordcnt3"
+        android:tag="gemingdiange_textView_wordcnt3"
+        android:layout_width="50dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="214dp"
+        android:layout_marginTop="572dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_wordcnt4"
+        android:tag="gemingdiange_textView_wordcnt4"
+        android:layout_width="50dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="273dp"
+        android:layout_marginTop="572dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_wordcnt5"
+        android:tag="gemingdiange_textView_wordcnt5"
+        android:layout_width="50dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="334dp"
+        android:layout_marginTop="572dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_wordcnt6"
+        android:tag="gemingdiange_textView_wordcnt6"
+        android:layout_width="50dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="395dp"
+        android:layout_marginTop="572dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_wordcnt7"
+        android:tag="gemingdiange_textView_wordcnt7"
+        android:layout_width="50dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="456dp"
+        android:layout_marginTop="572dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/gemingdiange_textView_wordcnt8"
+        android:tag="gemingdiange_textView_wordcnt8"
+        android:layout_width="50dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="516dp"
+        android:layout_marginTop="572dp"
+        android:gravity="center"
+        android:text="@string/gemingdiange_language1"
+        android:textColor="@color/gemingdiange_language"
+        android:textSize="18sp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/gemingdiange_textView2"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginLeft="614dp"
+        android:layout_marginTop="578dp"
+        android:gravity="center_horizontal"
+        android:text="1/1"
+        android:textColor="@color/gemingdiange_title"
+        />
+
+    <ImageButton
+        android:id="@+id/gemingdiange_imageButtonzuo"
+        android:tag="gemingdiange_imageButtonzuo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="586dp"
+        android:layout_marginTop="564dp"
+        android:background="@drawable/gemingdiange_ico_zuo_press"
+        />
+
+    <ImageButton
+        android:id="@+id/gemingdiange_imageButtonyou"
+        android:tag="gemingdiange_imageButtonyou"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="727dp"
+        android:layout_marginTop="564dp"
+        android:background="@drawable/gemingdiange_ico_you_press"
+        />
+
+    <RelativeLayout
+        android:id="@+id/gemingdiange_image_loading"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="78dp"
+        android:layout_width="794dp"
+        android:visibility="gone"
+        android:layout_height="543dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:alpha="0.6"
+            android:background="@color/black"/>
+        <FrameLayout
+            android:id="@+id/layout_loading_view"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

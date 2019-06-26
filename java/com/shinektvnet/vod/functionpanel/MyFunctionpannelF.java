@@ -1,13 +1,15 @@
 package com.shinektvnet.vod.functionpanel;
 
+import com.shinektvnet.vod.viewmanger.ViewFactory;
+import com.shinektvnet.vod.viewmanger.ViewProduct;
+
 /**
  * Created by hrblaoj on 2019/6/19.
  */
 
-public class MyFunctionpannelF implements FunctionpanelFactory {
+public class MyFunctionpannelF extends ViewFactory {
     @Override
-    public FunctionpanelProduct create() {
-
-        return new MyFunctionpannelP();
+    public <T extends ViewProduct> T create(Class<T> clz) {
+        return (T) new MyFunctionpannelP();
     }
 }

@@ -2,11 +2,21 @@ package com.shinektvnet.vod;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.KeyEvent;
+import android.view.MotionEvent;
 
-import com.shinektvnet.vod.functionpanel.FunctionpanelFactory;
-import com.shinektvnet.vod.functionpanel.FunctionpanelProduct;
+import com.shinektvnet.vod.fragment.FragmentFactory;
+import com.shinektvnet.vod.fragment.FragmentLanguage;
+import com.shinektvnet.vod.fragment.FragmentPageSongList;
+import com.shinektvnet.vod.fragment.MyFragmentManger;
+import com.shinektvnet.vod.page.PageManger;
+import com.shinektvnet.vod.viewmanger.ViewProduct;
 import com.shinektvnet.vod.functionpanel.MyFunctionpannelF;
 import com.shinektvnet.vod.resources.ResourcesManger;
+
+import me.jessyan.autosize.utils.LogUtils;
+
+import static android.view.KeyEvent.KEYCODE_BACK;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,17 +25,49 @@ public class MainActivity extends AppCompatActivity {
         System.loadLibrary("native-lib");
     }
 
-    private FunctionpanelProduct functionpanel = null;
-
+    private ViewProduct functionpanelProduct = null;
+   // private FragmentFactory fragmentManger = null;
+    public PageManger mPageManger = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ResourcesManger.getInstance();
         //ResourcesManger.getInstance().makeExtraResources("com.shinektv.vod.resource", "/sdcard/resource-debug.apk");
-        functionpanel = new MyFunctionpannelF().create();
-        setContentView(functionpanel.getView());
+        functionpanelProduct = new MyFunctionpannelF().create(null);
+        setContentView(functionpanelProduct.getView());
+        FragmentFactory fragmentManger = MyFragmentManger.getInstance(this.getSupportFragmentManager());
+        fragmentManger
+                .add(FragmentLanguage.class)
+                .add(FragmentPageSongList.class)
+        ;
 
+        mPageManger = PageManger.getInstance();
+//        mPageManger.build().addFragment(FragmentLanguage.class, null).addFragment(FragmentPageSongList.class, null).show();
+        mPageManger.build().addFragment(FragmentLanguage.class, null).show();
+
+
+
+    }
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        LogUtils.d("event is " + event);
+        if(KEYCODE_BACK == event.getKeyCode())
+            PageManger.getInstance().backPage();
+        //return super.onKeyDown(keyCode, event);
+        return true;
+    }
+
+    public static boolean mFragmentClickable = true;
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent event){
+        // 防抖动(防止点击速度过快)
+        if (!mFragmentClickable) {
+            return true;
+        }
+        return super.dispatchTouchEvent(event);
     }
 
     /**
