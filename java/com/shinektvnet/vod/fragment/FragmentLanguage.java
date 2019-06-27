@@ -25,6 +25,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
 import com.shinektvnet.vod.R;
+import com.shinektvnet.vod.animation.ICreateAnimation;
 import com.shinektvnet.vod.page.PageManger;
 import com.shinektvnet.vod.util.KtvLog;
 import com.shinektvnet.vod.viewmanger.MyViewIterateThrough;
@@ -33,6 +34,7 @@ import com.shinektvnet.vod.viewmanger.OnClickManger;
 import me.jessyan.autosize.utils.LogUtils;
 
 import static com.shinektvnet.vod.MainActivity.mFragmentClickable;
+import static com.shinektvnet.vod.animation.MyAnimation.iMyCreateAnimation;
 import static com.shinektvnet.vod.page.PageConstants.SELECT_PAGE_NO;
 
 /**
@@ -45,12 +47,14 @@ public class FragmentLanguage extends Fragment {
 
     protected Context mContext;
     View mView;
+    ICreateAnimation iCreateAnimation;
 
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+//        iCreateAnimation = iMyCreateAnimation;
     }
 
     @Override
@@ -64,50 +68,22 @@ public class FragmentLanguage extends Fragment {
             mContext = getActivity();
 
             initView();
-
-
         }
         return mView;
     }
 
     @Override
     public Animation onCreateAnimation(int transit, boolean enter, int nextAnim){
-//        KtvLog.d("onCreateAnimation");
-        if (enter && nextAnim != 0) {
-//            KtvLog.d("onCreateAnimation 111 nextAnim is " + nextAnim);
-            Animation anim = AnimationUtils.loadAnimation( mContext, nextAnim);
-            anim.setAnimationListener(new Animation.AnimationListener() {
-
-                @Override
-                public void onAnimationStart(Animation animation) {
-//                    KtvLog.d("onAnimationStart");
-                    mFragmentClickable = false;
-                }
-
-                @Override
-                public void onAnimationEnd(Animation animation) {
-                    // 转场动画结束时，允许Touch事件
-//                    KtvLog.d("onAnimationEnd");
-                    mFragmentClickable = true;
-                }
-
-                @Override
-                public void onAnimationRepeat(Animation animation) {
-//                    KtvLog.d("onAnimationRepeat");
-                }
-            });
-
-            return anim;
-        }
-        else {
-//            KtvLog.d("onCreateAnimation 222");
-        }
+        Animation a;
+//        if(null == iCreateAnimation)
+//            return super.onCreateAnimation(transit, enter, nextAnim);
+        if(null != (a = iMyCreateAnimation.onCreateAnimation(transit, enter, nextAnim)))
+            return a;
         return super.onCreateAnimation(transit, enter, nextAnim);
     }
 
     /** 初始化view */
     private void initView(){
-
         new MyViewIterateThrough().add(new OnClickManger(onClick)).iterate(mView);
     }
 
@@ -120,7 +96,6 @@ public class FragmentLanguage extends Fragment {
             KtvLog.d("FragmentLanguageFragmentLanguage");
         }
     };
-
 
     @Override
     public void onDestroyView() {

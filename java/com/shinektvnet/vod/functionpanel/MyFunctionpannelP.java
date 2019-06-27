@@ -42,8 +42,12 @@ public class MyFunctionpannelP extends ViewProduct {
             if (v.getTag() == null)
                 return;
 
-            //if(SELECT_PAGE_NO != PageManger.getInstance().getPageNo())
-                PageManger.getInstance().build().addFragment(FragmentPageSongList.class, null).show();
+            if((Integer)SELECT_PAGE_NO != PageManger.getInstance().getPageArg())
+                PageManger.getInstance().build((Integer)SELECT_PAGE_NO).addFragment(FragmentPageSongList.class, null).show();
         }
+
+
+
     };
+
 }

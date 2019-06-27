@@ -61,9 +61,9 @@ public class MainActivity extends AppCompatActivity {
 
     public static boolean mFragmentClickable = true;
 
+    /* 防止fragment动画抖动 */
     @Override
     public boolean dispatchTouchEvent(MotionEvent event){
-        // 防抖动(防止点击速度过快)
         if (!mFragmentClickable) {
             return true;
         }

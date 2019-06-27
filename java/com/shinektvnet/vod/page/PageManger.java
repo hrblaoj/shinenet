@@ -16,7 +16,7 @@ import java.util.Map;
  * Created by hrblaoj on 2019/6/21.
  */
 
-public class PageManger {
+public class PageManger <E>{
 
     public PageManger(){
 
@@ -42,20 +42,20 @@ public class PageManger {
         return p;
     }
 
-    public PageBuilder build(int pageNo){
+    public PageBuilder build(E arg){
         PageBuilder q = pop();
         if(null != q)
             q.hide();
-        PageBuilder p = new PageBuilder(pageNo);
+        PageBuilder<E, Parcelable> p = new PageBuilder<>(arg);
         push(p);
         return p;
     }
 
-    public int getPageNo(){
+    public Object getPageArg(){
         int size = aListPageInfoStack.size();
         if(0 == size)
-            return 0;
-        return aListPageInfoStack.get(size - 1).pageNo;
+            return null;
+        return  aListPageInfoStack.get(size - 1).pageBuilderArg;
     }
 
     public PageManger clear(){
@@ -88,16 +88,16 @@ public class PageManger {
         PageBuilder p = aListPageInfoStack.remove(size - 1 );
         p.hide();
         size = aListPageInfoStack.size();
-        if(0 == size)
-            return null;
+//        if(0 == size)
+//            return null;
         p = aListPageInfoStack.get(size - 1 );
         p.show();
+
         return p;
     }
 
-    public static class PageBuilder <T extends Parcelable> {
-        int pageNo = -1;
-        PageManger mPageManger;
+    public static class PageBuilder <Z, T extends Parcelable> {
+        Z pageBuilderArg = null;
 
         class FragmentInfo {
             Class<Fragment> f;
@@ -115,8 +115,8 @@ public class PageManger {
 
         }
 
-        public PageBuilder(int no) {
-            pageNo = no;
+        public PageBuilder(Z zrg) {
+            pageBuilderArg = zrg;
         }
 
         public PageBuilder addFragment(Class clz, T para) {
@@ -136,7 +136,7 @@ public class PageManger {
             }
         }
 
-
+        /* 没想好怎么封装 */
         public void setAnim(MyFragmentManger.AnimInterface i){
             MyFragmentManger.getInstance(null).setAnimInterface(i);
         }
