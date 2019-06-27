@@ -4,6 +4,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
 import com.shinektvnet.vod.MyApplication;
+import com.shinektvnet.vod.util.KtvLog;
 
 import static com.shinektvnet.vod.MainActivity.mFragmentClickable;
 
@@ -17,7 +18,7 @@ public class MyAnimation implements ICreateAnimation{
     @Override
     public Animation onCreateAnimation(int transit, boolean enter, int nextAnim) {
         if (enter && nextAnim != 0) {
-//            KtvLog.d("onCreateAnimation 111 nextAnim is " + nextAnim);
+            KtvLog.d("onCreateAnimation 111 nextAnim is " + nextAnim);
             Animation anim = AnimationUtils.loadAnimation(MyApplication.getInstance().getApplicationContext(), nextAnim);
             anim.setAnimationListener(new Animation.AnimationListener() {
                 @Override

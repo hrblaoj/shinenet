@@ -42,11 +42,11 @@ public class PageManger <E>{
         return p;
     }
 
-    public PageBuilder build(E arg){
+    public PageBuilder build(Object arg){
         PageBuilder q = pop();
         if(null != q)
             q.hide();
-        PageBuilder<E, Parcelable> p = new PageBuilder<>(arg);
+        PageBuilder p = new PageBuilder(arg);
         push(p);
         return p;
     }
