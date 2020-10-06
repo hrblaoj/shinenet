@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     static {
         System.loadLibrary("native-lib");
     }
+    //test1
 
     private ViewProduct functionpanelProduct = null;
    // private FragmentFactory fragmentManger = null;
